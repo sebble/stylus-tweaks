@@ -1,0 +1,42 @@
+@-moz-document domain("app.asana.com") {
+.SidebarTopNavLinks-myPortfoliosbutton,
+.SidebarTopNavLinks-goalsButton {
+    display: none;
+}
+.SidebarHeader {
+    height: 40px;
+}
+.SidebarReportsItemRow {
+    display: none;
+}
+.Sidebar {
+    background-color: #444;
+}
+.SidebarCollapsibleHeader {
+    color: #9ca6af;
+}
+.BusinessUpgradeButton,
+.AutomationMenu,
+.AppsMenu-dropdownButton {
+    display: none;
+}
+#clockifyButton {
+    visibility: hidden;
+}
+.SidebarCollapsibleSection {
+    border-bottom: 1px solid #7a828b;
+}
+.SidebarTeamMembersList {
+    display: none;
+}
+.SidebarFavoritesAndMore {
+    display: none;
+}
+.SidebarCollapsibleSection.SidebarCollapsibleSection--isExpanded {
+    padding-bottom: 6px;
+    padding-top: 0px;
+}
+.ProjectHeaderFacepile-facepile {
+    display: none;
+}
+}
